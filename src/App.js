@@ -1,13 +1,14 @@
 import "./App.scss";
 // import Card from "./components/Card";
-import PokeCard from "./components/PokeCard";
+// import PokeCard from "./components/PokeCard";
+import PokeApi from "./components/PokeApi";
 
 const App = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <h1>POKEMON</h1>
 
-      <PokeCard />
+      <PokeApi />
     </div>
   );
 };
